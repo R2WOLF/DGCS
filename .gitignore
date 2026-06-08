@@ -1,0 +1,30 @@
+# Local Python environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Downloaded manuals and local artifacts
+*.pdf
+
+# Temporary build and packaging outputs
+build/
+dist/
+*.egg-info/
+
+# Large downloaded upstream snapshot that is not part of the working app
+siyi_sdk-main/

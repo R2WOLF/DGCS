@@ -1,0 +1,14 @@
+[Unit]
+Description=Gimbal Controller Service
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/gimbal_control
+ExecStart=/usr/bin/python3 /home/pi/gimbal_control/rpi_gimbal.py --headless --uart /dev/ttyAMA0 --baud 115200
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
