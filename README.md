@@ -1,5 +1,8 @@
 # Dual Camera Raspberry Pi Hub
 
+**Release:** v0.1.0 — 2026-06-08 — initial public import
+
+
 Professional Ground Control Station for SIYI gimbal systems with dual-camera support and low-latency optimization.
 
 ## ⚡ Quick Start
